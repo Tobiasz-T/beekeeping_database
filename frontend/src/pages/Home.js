@@ -23,11 +23,14 @@ const Home = ()=>{
     return(
         <div className="db">
             <h1>BEE</h1>
-            <ul>
+            <table>
+            <tr>
+      <td>UL</td> <td>Data</td> <td>Korpusy</td> <td>Nadstawki</td> <td>Ramki</td>
+            </tr>
                 {bee.map((beekeeping) => (
-                    <li key={beekeeping.id}>{'Ul '+beekeeping.id+'. '} {formatDate(beekeeping.data)+' '} {beekeeping.korpusy+' '} {beekeeping.nadstawki+' '} {beekeeping.ramki}</li>
+                    <tr class="m" key={beekeeping.id}><td>{beekeeping.id+'. '}</td> <td>{formatDate(beekeeping.data)+' '}</td> <td>{beekeeping.korpusy+' '}</td><td>{beekeeping.nadstawki+' '}</td><td>{beekeeping.ramki}</td></tr>
                 ))}
-            </ul>
+            </table>
         </div>
     );
 }
