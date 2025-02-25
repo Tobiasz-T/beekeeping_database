@@ -22,10 +22,9 @@ const Home = ()=>{
 
     return(
         <div className="db">
-            <h1>BEE</h1>
             <table>
             <tr>
-      <td>UL</td> <td>Data</td> <td>Korpusy</td> <td>Nadstawki</td> <td>Ramki</td>
+      <td class="c">UL</td> <td class="c">Data</td> <td class="c">Korpusy</td> <td class="c">Nadstawki</td> <td class="c">Ramki</td>
             </tr>
                 {bee.map((beekeeping) => (
                     <tr class="m" key={beekeeping.id}><td>{beekeeping.id+'. '}</td> <td>{formatDate(beekeeping.data)+' '}</td> <td>{beekeeping.korpusy+' '}</td><td>{beekeeping.nadstawki+' '}</td><td>{beekeeping.ramki}</td></tr>
