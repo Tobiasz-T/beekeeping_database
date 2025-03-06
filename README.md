@@ -1,9 +1,9 @@
 # Beekeeping Database
 ## Spis treści
 * [Opis projektu](#Opis-projektu)
-* [Zakres-funkconalności] (#Zakres funkconalności)
+* [Zakres funkcjonalności](#Zakres-funkcjonalności)
 * [Technologie](#Technologie)
-* [Struktura-projektu] (#Struktura projektu)
+* [Struktura projektu](#Struktura-projektu)
 * [Kontakt](Kontakt)
 ## Opis projektu
 Beekeeping Database to aplikacja internetowa stworzona w technologii React, umożliwiająca zarządzanie danymi związanymi z pszczelarstwem. Dzięki wykorzystaniu React Router użytkownik może łatwo nawigować między stronami aplikacji.
